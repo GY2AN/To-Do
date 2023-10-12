@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.todos-bg-container{
+  background-image: linear-gradient(rgba(200,200,200,0.6), rgba(200,200,200,0.9)), url("backgroundImage.png");
+  height: 10000vh;
+}
+
+
+.create-task-heading{
+  font-family: Roboto;
+  font-size: 45px;
+  padding: 22px;
+  color: white;
+  font-weight: 900;
+  text-align: center;
+}
+
+.create-subheading{
+  font-family: Roboto;
+  font-size: 55px;
+  font-weight: 100;
+  color: white;
+}
+
+.task-subheading{
+  font-weight: 900;
+  font-size: 35px;
+}
+
+.input-element{
+  width: 40%;
+  height: 50px;
+  border-radius: 10px;
+  background-color: aliceblue;
+  border-style: solid;
+  border-width: 3px;
+  padding: 15px;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.button-add-element{
+  height: 30px;
+  border-radius: 5px;
+  border-color: #007bff;
+  background-color: #007bff;
+  width: 60px;
+  margin-left: 15px;
+}
+
+.my-task-heading{
+  color: #ffffff;
+  margin-top: 60px;
+  font-size: 36px;
+  font-family: Roboto;
+  font-weight: 200;
+  margin-bottom: 30px;
+}
+
+.my-task-sub-heading{
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.label-container{
+  width: 86%;
+  height: 50px;
+  border-radius: 10px;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 2px;
+  border-color: wheat;
+  color: white;
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+.label-checkbox-class{
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.delete-icon{
+  padding: 15px;
+  font-size: 17px;
+}
+
+.input-checkbox-class{
+  background-color: transparent;
+  width: 18px;
+  margin-bottom: 15px;
+}
+
+.delete-icon:hover{
+  cursor: pointer;
+}
+
+.input-checkbox-class:hover{
+  cursor: pointer;
+}
+
+.selected{
+  text-decoration: line-through;
+  color: greenyellow;
+  text-decoration-color: black;
+}
